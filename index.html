@@ -1,11 +1,18 @@
-
-
 <!DOCTYPE html>
-<html lang="en">
-  
-<head>
-    <meta charset="UTF-8">
-    <title>Build a number-guessing game</title>
+
+<html>
+    <head><title>Number Guessing Game version 1.0</title></head>
+    <body>
+        <form onsubmit="guess();return false;">
+        <p><h2>I am thinking of a number between 0 and 100. You must guess.</h2></p>
+        <p><input type="text" id="inputId"></input><input type="submit" id="submitButton" value="Guess!!" /></p>
+        <p><span id="msgId"></span></p>
+        <p>Guesses Remaining:<span id="guessId"></span></p>
+    </body>
+    </form>
+
+    <script src="ngg.js"></script>
     
-</head>
-  
+    </body>
+</html>
+
